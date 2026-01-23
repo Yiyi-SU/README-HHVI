@@ -1,4 +1,3 @@
-# README-HHVI
 # HHVI–TPV (Urban Climate) Reproducibility Repository
 
 This Zenodo repository constitutes the sole reproducibility archive for the manuscript submitted to *Urban Climate* and is referenced in the Data and Code Availability statement.
