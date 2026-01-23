@@ -30,9 +30,9 @@ https://doi.org/10.5281/zenodo.18299360
 
 ## Quick start (reproducibility workflow)
 
-1. Scripts in '1_Code/' are ordered **A → E → G → G-R** (see Appendix Table S0 in the manuscript).
+1. Scripts in `1_Code/` are ordered **A → E → G → G-R** (see Appendix Table S0 in the manuscript).
 2. All scripts are executed in **Google Earth Engine (JavaScript)**.
-3. Exported outputs in '2_Data/' constitute the **numerical source of truth** for all reported results.
+3. Exported outputs in `2_Data/` constitute the **numerical source of truth** for all reported results.
 
 This workflow reproduces all quantitative outputs reported in the manuscript and appendices.
 
@@ -102,7 +102,7 @@ TPV coding scheme, qualitative reproducibility documentation, and illustrative c
 These materials support qualitative methods and results but do not constitute a separate qualitative dataset.
 
 **Supplementary File S9 (sensitivity and diagnostic details)**  
-'Supplementary File S9.pdf' provides extended sensitivity and diagnostic results for governance discourse clustering referenced in the manuscript but not reproduced in the main text or appendices.
+`Supplementary File S9.pdf` provides extended sensitivity and diagnostic results for governance discourse clustering referenced in the manuscript but not reproduced in the main text or appendices.
 
 ### Numerical source-of-truth statement
 
@@ -145,7 +145,7 @@ All core diagnostics are conducted on **unsmoothed HHVI surfaces**; spatial smoo
 
 Summary statistics were computed on the final exported HHVI rasters only.  
 For temporal change (ΔHHVI), statistics are calculated on the common support domain where both years satisfy coverage ≥ 0.60, consistent with **Appendix Table S5** and **Figure S6**.  
-The use of 'bestEffort' in 'reduceRegion' was enabled solely for computational stability and does not affect HHVI values or reported results (see Appendix Table S5).
+The use of `bestEffort` in `reduceRegion` was enabled solely for computational stability and does not affect HHVI values or reported results (see Appendix Table S5).
 
 ---
 
@@ -170,7 +170,7 @@ The table below provides a one-to-one mapping between executable scripts, archiv
 
 ## Methods 2.2 (Quantitative: HHVI modelling)
 
-→ '3_Documentation/2-Quantitative_Appendix.pdf'
+→ `3_Documentation/2-Quantitative_Appendix.pdf`
 
 - Tables **S1–S2**: inputs, preprocessing, indicator definitions, weights  
 - Table **S3**, Figures **S3–S5**: diagnostics and robustness  
@@ -182,13 +182,13 @@ The table below provides a one-to-one mapping between executable scripts, archiv
 ## Methods 2.3 (Qualitative: TPV emotional–discursive analysis)
 
 - **Coding scheme:**  
-  '4_Qualitative_materials/TPV Coding Scheme for Qualitative Analysis.pdf'
+  `4_Qualitative_materials/TPV Coding Scheme for Qualitative Analysis.pdf`
 
 - **Illustrative excerpts:**  
-  '4_Qualitative_materials/Example_Coded_Excerpts (TPV Qualitative Analysis).pdf'
+  `4_Qualitative_materials/Example_Coded_Excerpts (TPV Qualitative Analysis).pdf`
 
 - **Reproducibility documentation:**  
-  '3_Documentation/3-Qualitative_Appendix.pdf'
+  `3_Documentation/3-Qualitative_Appendix.pdf`
 
 ---
 
@@ -198,15 +198,15 @@ The embedded case is an **analytically convergent validation site** and does not
 
 Repository support is provided through shared outputs only:
 
-- HHVI baseline surface: '2_Data/HHVI_2023_main_30m_Guangzhou.tif'  
-- TPV overlap: Appendix **Table S6** in '3_Documentation/2-Quantitative_Appendix.pdf'  
-- Case boundary & validation notes: Appendix **Table S12** and **Table Q7** in '3_Documentation/3-Qualitative_Appendix.pdf'
+- HHVI baseline surface: `2_Data/HHVI_2023_main_30m_Guangzhou.tif`  
+- TPV overlap: Appendix **Table S6** in `3_Documentation/2-Quantitative_Appendix.pdf`  
+- Case boundary & validation notes: Appendix **Table S12** and **Table Q7** in `3_Documentation/3-Qualitative_Appendix.pdf`
 
 ---
 
 ## License
 
-This repository is released under the license stated in 'LICENSE' (**CC BY 4.0**).
+This repository is released under the license stated in `LICENSE` (**CC BY 4.0**).
 
 ---
 
